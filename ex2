@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+    int pri;
+    int seg;
+    printf("Primeiro número: ");
+    scanf("%d", &pri);
+    printf("Segundo número: ");
+    scanf("%d", &seg);
+    if(pri > seg) {
+        printf("Maior: %d\n", pri);
+        printf("Menor: %d", seg);
+    }
+    if(pri < seg) {
+        printf("Maior: %d\n", seg);
+        printf("Menor: %d", pri);
+    }
+    if(pri == seg) {
+        printf("São iguais!");
+    }
+    
+    return 0;
+}
