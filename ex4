@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int x;
+
+    printf("Digite um número: ");
+    scanf("%d", &x);
+    int divisao = x / 2;
+    int resto = x % 2;
+    
+    if (resto == 0) {
+        printf("%d é um número PAR, pois o resto da divisão por 2 é %d", x, resto);
+        return 0;
+    }
+    
+    if (resto == 1) {
+        printf("%d é um número IMPAR, pois o resto da divisão por 2 é %d", x, resto);
+    }
+    return 0;
+}
