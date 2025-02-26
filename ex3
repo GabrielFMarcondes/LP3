@@ -7,7 +7,6 @@ int main(void) {
   scanf("%f", &nota);
   if( nota >= 9 ) {
   printf ("Nota: A");
-  
   return 0;
 }
   if( nota >= 8 ) {
